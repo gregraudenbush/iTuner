@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+        <title>iTuner</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/style.css">
+        <style>
+        
+        </style>
+       
+    </head>
+<body >
+    <script type="text/javascript" src="js/pitchdetect.js"></script>
+    <p style="font-size: 75px; text-align: center;">iTuner</p>
+    <div class="fg">
+
+		<p>
+			<button class="button" onclick="toggleLiveInput()">Activate Mic</button>
+        </p>
+        <p >
+            ((( make sure your mic is turned on! )))
+        </p>
+    
+		<div id="detector" class="vague">
+			<div class="pitch"><span id="pitch">--</span>Hz</div>
+			<div class="note"><span id="note">--</span></div>   
+			<!-- <canvas id="output" width=300 height=42></canvas> -->
+			<div id="detune"><span id="detune_amt">--</span><span id="flat">cents &#9837;</span><span id="sharp">cents &#9839;</span></div>
+		</div>
+
+		
+    </div>
+
+
+    
+    
+</body>
+</html>
